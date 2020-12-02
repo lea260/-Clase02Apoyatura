@@ -1,0 +1,4 @@
+C:\Users\leandro\Documents\Programacion3\solucionproyecto\solucionProyecto\solucionProyecto\obj\Debug\solucionProyecto.csprojAssemblyReference.cache
+C:\Users\leandro\Documents\Programacion3\solucionproyecto\solucionProyecto\solucionProyecto\obj\Debug\solucionProyecto.csproj.CoreCompileInputs.cache
+C:\Users\leandro\Documents\Programacion3\01clase\Clase01\solucionProyecto\obj\Debug\solucionProyecto.csprojAssemblyReference.cache
+C:\Users\leandro\Documents\Programacion3\01clase\Clase01\solucionProyecto\obj\Debug\solucionProyecto.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.deps.json
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.dll
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.pdb
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.AssemblyInfo.cs
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.dll
+C:\Users\leandro\Documents\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.pdb
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.deps.json
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.dll
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\bin\Debug\netstandard2.0\Libreria.pdb
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.AssemblyInfoInputs.cache
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.AssemblyInfo.cs
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.dll
+C:\Users\lcalvetti1\Documents\UTU\Programacion3\apoyaturaPla\clase01\clase07\Libreria\obj\Debug\netstandard2.0\Libreria.pdb
