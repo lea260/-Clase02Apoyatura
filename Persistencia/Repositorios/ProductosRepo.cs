@@ -37,6 +37,11 @@ namespace Persistencia.Repositorios
 
                 //Command.Parameters.Add(new SqlParameter("@name", searchTerm));
 
+
+                //ExecuteReader te va permitir ejecutar 
+                //select
+
+
                 MySqlCommand comando = new MySqlCommand(sql, conexion);
                 comando.Parameters.AddWithValue("@consulta", searchTerm);
                 reader = comando.ExecuteReader();
@@ -108,6 +113,9 @@ namespace Persistencia.Repositorios
             MySqlConnection conexion = null;
             try
             {
+                //ExecuteNon te va permitir ejecutar 
+                //update, insert, create, .... va 
+                //a estar a los privilegios del usuario
                 conexion = ConexionDB.GetConexion();
                 conexion.Open();
                 string sql = "insert into productos (codigo, descripcion,precio,fecha) values " +
@@ -191,6 +199,11 @@ namespace Persistencia.Repositorios
                     conexion.Close();
                 }
             }
+        }
+
+        public int Nada(int param)
+        {
+            return 1;
         }
     }//end clase
 }//end namespace

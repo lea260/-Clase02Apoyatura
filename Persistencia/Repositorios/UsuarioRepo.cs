@@ -10,6 +10,7 @@ namespace Persistencia.Repositorios
 {
     public class UsuarioRepo : IUsuarioRepo
     {
+
         public bool Ingresar(string nombreUsuario, string password, string programa)
         {
             string passEncriptado = Encriptar.Encriptar.sha256(password);//1234
@@ -30,7 +31,16 @@ namespace Persistencia.Repositorios
                 if (reader.HasRows)
                 {
                     while (reader.Read())
-                    {                   
+                    {
+                        /*if (reader[0] != DBNull.Value)
+                        {
+                            id = reader.GetString(0);
+                        }
+                        else
+                        {
+                            //id = ""
+                        }*/
+
                         string id = (reader[0] != DBNull.Value) ? reader.GetString(1) : "";
                         string pwdbase = (reader[1] != DBNull.Value) ? reader.GetString(1) : "";
                         string rolbase = (reader[2] != DBNull.Value) ? reader.GetString(2) : "";

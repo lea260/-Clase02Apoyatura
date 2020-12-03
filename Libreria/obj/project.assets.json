@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase01\\clase07\\Libreria\\Libreria.csproj",
+      "projectUniqueName": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase02\\Clase01Apoyatura\\Libreria\\Libreria.csproj",
       "projectName": "Libreria",
-      "projectPath": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase01\\clase07\\Libreria\\Libreria.csproj",
+      "projectPath": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase02\\Clase01Apoyatura\\Libreria\\Libreria.csproj",
       "packagesPath": "C:\\Users\\lcalvetti1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase01\\clase07\\Libreria\\obj\\",
+      "outputPath": "C:\\Users\\lcalvetti1\\Documents\\UTU\\Programacion3\\apoyaturaPla\\clase02\\Clase01Apoyatura\\Libreria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lcalvetti1\\AppData\\Roaming\\NuGet\\NuGet.Config",

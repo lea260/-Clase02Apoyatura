@@ -21,12 +21,14 @@ using Negocio.Objetos;
 
 namespace Presentacion.Formularios
 {
-    public partial class FormInicio : Form, IFormInicio
+    public partial class FormRep : Form, IFormInicio
     {
-        public FormInicio()
+        public FormRep()
         {
             InitializeComponent();
         }
+        
+
         
         private void btnClick_Click(object sender, EventArgs e)
         {
@@ -71,8 +73,6 @@ namespace Presentacion.Formularios
                 prod.Fecha = (DateTime)fila.Cells[4].Value;                
                 Form form = new AgregarProducto(prod, Modo.Actualizar, this);
                 form.Show();
-                //tranca este formulario
-                form.ShowDialog();
             }
             
         }
@@ -121,6 +121,4 @@ namespace Presentacion.Formularios
             form.Show();
         }*/
     }
-
-
 }

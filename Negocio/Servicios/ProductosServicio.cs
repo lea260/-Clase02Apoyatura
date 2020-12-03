@@ -39,6 +39,7 @@ namespace Negocio.Servicios
             ///recorrer la lista 
             foreach (ProductoEntidad prod in list2)
             {
+
                 DataProducto producto = new DataProducto
                 {
                     Id_productos = prod.Id_productos,

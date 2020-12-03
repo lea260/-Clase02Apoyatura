@@ -17,9 +17,9 @@ namespace Presentacion.Formularios
     public partial class AgregarProducto : Form
     {
         private readonly Modo modo;
-        private FormInicio formInicio;
+        public IFormInicio formInicio;
 
-        public AgregarProducto()
+        public AgregarProducto(Modo agregar)
         {
             InitializeComponent();               
         }
@@ -27,7 +27,7 @@ namespace Presentacion.Formularios
         /// se usa para agregar
         /// </summary>
         /// <param name="modo"></param>
-        public AgregarProducto(Modo modo, FormInicio formInicio)
+        public AgregarProducto(Modo modo, IFormInicio formInicio)
         {
             InitializeComponent();
             this.modo = modo;
@@ -56,7 +56,7 @@ namespace Presentacion.Formularios
             txtid.Enabled = false;
         }
 
-        public AgregarProducto(DataProducto prod, Modo modo, FormInicio formInicio) : this(prod, modo)
+        public AgregarProducto(DataProducto prod, Modo modo, IFormInicio formInicio) : this(prod, modo)
         {
             this.formInicio = formInicio;
         }
@@ -145,13 +145,13 @@ namespace Presentacion.Formularios
                 //llamar a agregar                 
                 long idproducto = long.Parse(txtid.Text);
                 Producto producto = new Producto();
-                producto.EliminarProducto(idproducto);                
+                producto.EliminarProducto(idproducto);                    
             }
         }
 
         private void AgregarProducto_FormClosing(object sender, FormClosingEventArgs e)
         {
-            formInicio.ActulizarProductos();
+            formInicio.ActulizarProductos();            
         }
     }
 }

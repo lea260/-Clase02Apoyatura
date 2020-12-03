@@ -7,10 +7,11 @@ namespace Persistencia.Repositorios
 {
     public class ConexionDB
     {    
+        //se puede llamar sin instanciar la clase.
         public static MySqlConnection GetConexion()
         {
-
-            string cadenaConexion = "Database=prueba; Data Source=localhost; Port=3306; User Id=usuario1; Password=usuario1";
+            
+            string cadenaConexion = "Database=proyecto01; Data Source=localhost; Port=3306; User Id=usuario1; Password=usuario1";
             MySqlConnection conexion = null;
             try
             {
@@ -20,10 +21,7 @@ namespace Persistencia.Repositorios
                 string mensaje = ex.ToString();
                 Console.WriteLine("something is "+ex.ToString());
             }
-            finally
-            {
-                Console.WriteLine("\n");
-            }
+            
             return conexion;        
         } 
     }

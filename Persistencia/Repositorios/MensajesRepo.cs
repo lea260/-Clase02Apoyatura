@@ -34,6 +34,7 @@ namespace Persistencia.Repositorios
                         where chat.id_diag=?diag";
                 MySqlCommand comando = new MySqlCommand(sql, conexion);
                 //comando.Parameters.AddWithValue("@diag", diag);
+                //no se a=hace conversion
                 comando.Parameters.Add("?diag", MySqlDbType.Int64).Value= diag;
                 reader = comando.ExecuteReader();
                 if (reader.HasRows)

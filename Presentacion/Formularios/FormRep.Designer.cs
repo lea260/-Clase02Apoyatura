@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Formularios
 {
-    partial class FormInicio
+    partial class FormRep
     {
         /// <summary>
         /// Required designer variable.
