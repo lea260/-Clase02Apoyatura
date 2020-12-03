@@ -156,13 +156,12 @@
             this.txtConsulta.Name = "txtConsulta";
             this.txtConsulta.Size = new System.Drawing.Size(242, 26);
             this.txtConsulta.TabIndex = 4;
-
             // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1426, 700);
+            this.ClientSize = new System.Drawing.Size(1464, 700);
             this.Controls.Add(this.txtConsulta);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnEditar);
@@ -171,6 +170,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormInicio";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.FormInicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataProductoBindingSource)).EndInit();
             this.ResumeLayout(false);

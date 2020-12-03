@@ -104,6 +104,11 @@ namespace Presentacion.Formularios
             dgvProductos.DataSource = list;
         }
 
+        private void FormInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
 
         /*private void btnAgregar_Click(object sender, EventArgs e)

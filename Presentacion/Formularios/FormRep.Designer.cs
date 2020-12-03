@@ -75,7 +75,7 @@
             this.dgvProductos.RowHeadersWidth = 51;
             this.dgvProductos.RowTemplate.Height = 24;
             this.dgvProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProductos.Size = new System.Drawing.Size(1320, 498);
+            this.dgvProductos.Size = new System.Drawing.Size(1152, 498);
             this.dgvProductos.TabIndex = 1;
             // 
             // idproductosDataGridViewTextBoxColumn
@@ -156,20 +156,19 @@
             this.txtConsulta.Name = "txtConsulta";
             this.txtConsulta.Size = new System.Drawing.Size(242, 26);
             this.txtConsulta.TabIndex = 4;
-
             // 
-            // FormInicio
+            // FormRep
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1426, 700);
+            this.ClientSize = new System.Drawing.Size(1529, 700);
             this.Controls.Add(this.txtConsulta);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.dgvProductos);
             this.Controls.Add(this.btnClick);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "FormInicio";
+            this.Name = "FormRep";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataProductoBindingSource)).EndInit();
