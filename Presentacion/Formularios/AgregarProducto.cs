@@ -17,7 +17,7 @@ namespace Presentacion.Formularios
     public partial class AgregarProducto : Form
     {
         private readonly Modo modo;
-        public IFormInicio formInicio;
+        private IFormInicio formInicio;
 
         public AgregarProducto(Modo agregar)
         {
